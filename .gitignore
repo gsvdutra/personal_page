@@ -1,2 +1,4 @@
 site/node_modules/*
 site/.idea/
+node_modules/*
+.idea/
