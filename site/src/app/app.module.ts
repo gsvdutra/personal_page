@@ -22,15 +22,13 @@ import { ProfissionalComponent } from './main/profissional/profissional.componen
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    MainPageComponent,
-    AcademicComponent,
-    ProfissionalComponent
   ],
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
     FormsModule,
     RouterModule,
+    MainModule,
     ComponentsModule,
     ExamplesModule,
     AppRoutingModule,
