@@ -1,0 +1,142 @@
+<div class="wrapper">
+    <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/besancon_wall_2.png');">
+        <div class="filter"></div>
+    </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner">
+                <div class="avatar">
+                    <img src="./assets/img/faces/eu_placeholder.png" alt="Circle Image" class="img-circle img-no-padding img-responsive" style="max-width: 200px; max-height: 200px;">
+                </div>
+                <div class="name">
+                    <h4 class="title">Gustavo DUTRA<br /></h4>
+                    <h6 class="description">Mechatronics Engineering Student</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <p>{{intro}}</p>
+                </div>
+            </div>
+            <br/>
+            <div class="nav-tabs-navigation">
+                <div class="nav-tabs-wrapper">
+                    <ngb-tabset [justify]="'center'">
+                        <ngb-tab title="Work Experience">
+                            <ng-template ngbTabContent >
+                                <div class="row following" id="follows">
+                                    <div class="col-md-6 ml-auto mr-auto">
+                                        <ul class="list-unstyled follows">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                        <img src="./assets/img/hut_logo.png" alt="Circle Image" class="img-circle img-no-padding img-responsive" style="padding-top: 10px;">
+                                                    </div>
+                                                    <div class="col-md-10 col-sm-10 ml-auto">
+                                                        <h6>Jan 2020 - Jul 2020: TECHLAM - HUTCHINSON<br/>
+                                                          <small>UFU - Universidade Federal de Uberlândia</small>
+                                                          <br><small><b>Cenay - France</b></small></h6>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <hr />
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                        <img src="./assets/img/kyros_logo.jpeg" alt="Circle Image" class="img-circle img-no-padding img-responsive" style="padding-top: 10px">
+                                                    </div>
+                                                    <div class="col-md-10 col-sm-10 ml-auto">
+                                                        <h6>Dec 2018 - Aug 2019: Kyros technology<br />
+                                                          <small>ENSMM - École Nationale Supérieure de Mécanique et des Microtechniques de Besançon</small>
+                                                          <br><small><b>Uberlândia - Brazil</b></small></h6>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ngb-tab>
+                        <ngb-tab title="Programming">
+                            <ng-template ngbTabContent >
+                                <div class="row following" id="follows">                                  
+                                    <div class="col-md-6 ml-auto mr-auto">
+                                        <ul class="list-unstyled follows">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-md-2 col-sm-2 ml-auto mr-auto" 
+                                                    rel="tooltip" title="{{item.language}}" data-placement="bottom" 
+                                                    placement="bottom" ngbPopover="{{item.description}}" popoverTitle="{{item.language}}"
+                                                    *ngFor="let item of programming" style="cursor: pointer;">
+                                                        <img src="./assets/img/programming/{{item.logo}}" alt="Circle Image" class="img-circle img-no-padding img-responsive" style="padding-top: 10px; max-width: 80%">
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <hr />
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ngb-tab>
+                        <ngb-tab title="CAD & CAI">
+                            <ng-template ngbTabContent >
+                                <div class="section" id="carousel">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-8 mr-auto ml-auto">
+                                                <div class="card page-carousel">
+                                                    <ngb-carousel>
+                                                        <ng-template ngbSlide>
+                                                            <img src="./assets/img/soroush-karimi.jpg" alt="Random first slide">
+                                                            <div class="carousel-caption">
+                                                                <p>Solid-Works</p>
+                                                            </div>
+                                                        </ng-template>
+                                                        <ng-template ngbSlide>
+                                                            <img src="./assets/img/federico-beccari.jpg" alt="Random second slide">
+                                                            <div class="carousel-caption">
+                                                                <p>ABAQUS</p>
+                                                            </div>
+                                                        </ng-template>
+                                                        <ng-template ngbSlide>
+                                                            <img src="./assets/img/joshua-stannard.jpg" alt="Random third slide">
+                                                            <div class="carousel-caption">
+                                                                <p>CREO</p>
+                                                            </div>
+                                                        </ng-template>
+                                                    </ngb-carousel>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ngb-tab>
+                        <ngb-tab title="Automation">
+                            <ng-template ngbTabContent >
+                                <div class="section" id="carousel">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-8 mr-auto ml-auto">
+                                                <div class="card page-carousel">
+                                                    <ngb-carousel>
+                                                        <ng-template ngbSlide *ngFor="let item of automation">
+                                                            <img src="./assets/img/{{item.image}}" alt="´{{item.title}}">
+                                                            <div class="carousel-caption" style="background: rgba(16, 20, 20, 0.671); color: white">
+                                                                <p><b>{{item.title}}</b></p>
+                                                            </div>
+                                                        </ng-template>
+                                                    </ngb-carousel>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ngb-tab>
+                    </ngb-tabset>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="100">
+    <div class="container">
+        <div class="navbar-translate" *ngIf="!isHome()">
+            <a class="navbar-brand" href="profile">Home</a>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="nav-link" rel="tooltip" title="gsvdutra@gmail.com" data-placement="bottom" target="_blank">
+                        <i class="fa fa-envelope"></i>
+                        <p class="d-lg-none">E-Mail</p>
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="nav-link" rel="tooltip" title="LinkedIn Profile" data-placement="bottom" href="https://www.instagram.com/gsv.dutra/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                        <p class="d-lg-none">LinkedIn</p>
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                        <a class="nav-link" rel="tooltip" title="Lattes" data-placement="bottom" href="http://lattes.cnpq.br/4656684161314803" target="_blank">
+                            <i class="fa fa-graduation-cap"></i>
+                            <p class="d-lg-none">Curriculum Lattes</p>
+                        </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a class="nav-link" rel="tooltip" title="GibHub repositories" data-placement="bottom" href="https://www.github.com/CreativeTimOfficial/paper-kit-2-angular" target="_blank">
+                        <i class="fa fa-github"></i>
+                        <p class="d-lg-none">GitHub</p>
+                    </a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                    <a href="/#/academic" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> Academic Life</a>
+                </li>
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                        <a href="/#/experience" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> Work Experience</a>
+                </li>
+                <li class="nav-item" *ngIf="isDocumentation()">
+                    <a href="https://github.com/creativetimofficial/paper-kit-2-angular/issues?ref=pk2-free-local" target="_blank" class="nav-link">Have an issue</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
