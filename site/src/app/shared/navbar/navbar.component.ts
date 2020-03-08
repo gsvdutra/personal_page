@@ -74,11 +74,7 @@ export class NavbarComponent implements OnInit {
     }
 
     route(entry) {
-        if (entry === 'academic') {
-            this.router.navigate(['/academic']);
-        }
-        if (entry === 'experience') {
-            this.router.navigate(['/experience']);
-        }
+        var path = '/' + entry;
+        this.router.navigate([path]);
     }
 }
