@@ -1,15 +1,19 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="100">
     <div class="container">
-        <div class="navbar-translate" *ngIf="!isHome()">
-            <a class="navbar-brand" (click)="route('profile')">Home</a>
-            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
-                <span class="navbar-toggler-bar"></span>
-                <span class="navbar-toggler-bar"></span>
-                <span class="navbar-toggler-bar"></span>
-            </button>
-        </div>
+        <button class="navbar-toggler navbar-burger" type="button" (click)="sidebarToggle()" style="float: left; height: 4rem;">
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+        </button>
         <div class="navbar-collapse" id="navbarToggler">
+            
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item" *ngIf="!isDocumentation()">
+                        <a class="nav-link" *ngIf="!isHome()" (click)="route('profile')">
+                            <i class="fa fa-home"></i>
+                            <p class="d-lg-none">Home</p>
+                        </a>
+                    </li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
                     <a class="nav-link" rel="tooltip" title="gsvdutra@gmail.com" data-placement="bottom" target="_blank">
                         <i class="fa fa-envelope"></i>
