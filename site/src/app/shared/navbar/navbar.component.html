@@ -47,6 +47,19 @@
                 <li class="nav-item" *ngIf="isDocumentation()">
                     <a href="https://github.com/creativetimofficial/paper-kit-2-angular/issues?ref=pk2-free-local" target="_blank" class="nav-link">Have an issue</a>
                 </li>
+                <li class="nav-item">
+                    <div ngbDropdown class="d-inline-block dropdown">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle><img src="./assets/img/flags/{{country}}" style="height: 1.75rem; padding-top: -0.875rem"></a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-primary">
+                            <tr *ngFor="let item of country_list" >
+                                <a *ngIf="item.logo != country" class="dropdown-item">
+                                        <img src="./assets/img/flags/{{item.logo}}" style="height: 1.4rem; padding-top: -0.7rem" (click)="changeCountry(item.logo)">
+                                       
+                                </a>
+                            </tr>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>

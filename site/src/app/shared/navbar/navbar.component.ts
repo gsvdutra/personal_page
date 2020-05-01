@@ -10,12 +10,25 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
     private toggleButton: any;
     private sidebarVisible: boolean;
+    private country: String;
+    country_list =  [
+        { 'language' : 'PT',
+          'logo' : 'brasil.png'
+        },
+        { 'language' : 'EN',
+          'logo' : 'uk.png'
+        },
+        { 'language' : 'FR',
+          'logo' : 'franca.png'
+        },
+    ]
 
     constructor(public location: Location, private element : ElementRef, private router: Router) {
         this.sidebarVisible = false;
     }
 
     ngOnInit() {
+        this.country = 'brasil.png'
         const navbar: HTMLElement = this.element.nativeElement;
         this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
     }
@@ -76,5 +89,9 @@ export class NavbarComponent implements OnInit {
     route(entry) {
         var path = '/' + entry;
         this.router.navigate([path]);
+    }
+
+    changeCountry(item) {
+        this.country = item;
     }
 }

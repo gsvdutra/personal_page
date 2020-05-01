@@ -18,11 +18,11 @@ export class ProfissionalComponent implements OnInit {
     },
     { 'language' : 'Office Pack',
       'description' : 'Skills with the main tools of the package. Improved practice with excel, word and power point',
-      'logo' : 'win.png'
+      'logo' : '365.png'
     },
     { 'language' : 'Adobe Softwares',
       'description' : 'Use of software for web development, photo editing, PDFs and creation of 3D models',
-      'logo' : 'photo.png'
+      'logo' : 'adobe.jpg'
     },
     { 'language' : 'Python',
       'description' : 'Main programming language. Development of systems back-end using de Flask. Artificial intelligence applications for data processing. Scripts for automating various functions',
@@ -46,11 +46,11 @@ export class ProfissionalComponent implements OnInit {
     },
     { 'language' : 'SQL',
       'description' : 'aUse of the bank for application development. Filtering data prior to the server',
-      'logo' : 'sql.jpg'
+      'logo' : 'sql.png'
     },
     { 'language' : 'Assembly',
       'description' : 'Experience with projects in embedded systems and with logical challenges using the languagea',
-      'logo' : 'assembly.png'
+      'logo' : 'asm.png'
     },
   ]
 
@@ -60,6 +60,9 @@ export class ProfissionalComponent implements OnInit {
     },
     { 'title' : 'Robotic arm controled by body mouvements',
       'image' : 'sumocup_1.png'
+    },
+    { 'title' : 'Portable platform for electrochemical detection',
+      'image' : 'autosampler.png'
     },
   ] 
   constructor() { }
