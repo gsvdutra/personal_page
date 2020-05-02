@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profissional.component.scss']
 })
 export class ProfissionalComponent implements OnInit {
-  intro = 'FUCK'
+  intro = 'Development of activities related to mechatronic engineering, programming and automation.'
   programming = [
     { 'language' : 'Windows',
       'description' : 'Accustomed to using the Operating System and developing BAT files',

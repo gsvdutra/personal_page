@@ -69,6 +69,21 @@ export class AcademicComponent implements OnInit {
       'date' : '2017',
       'promotor' : 'Laboratório de Automação, Servomecanismos e Controle (LASEC)'},
   ]
+
+  projects = [
+    { 'title' : 'PROSSIGA - Pró Excelência & Motivação',
+      'description' : 'Projects carried out aiming the reduction of the retention rate in the faculty utilizing educational and psychological techniques.',
+      'date' : 'May 2018 -Dec 2019',
+      'promotor' : 'UFU - Universidade Federal de Uberlândia'},
+    { 'title' : 'Into the 10% best Students on the Mechatronics Course',
+      'description' : 'Orientation of study groups and both development of a virtual library and an applied guide on the subject of Calculus I',
+      'date' : 'Aug 2015 - Jul 2016',
+      'promotor' : 'PROSSIGA - PROCOR'},
+    { 'title' : 'Teaching assistant of several subjects',
+      'description' : 'Teacher for six months in each of the following subjects: Transfer of heat, Dynamics, Calculus I, Digital system control',
+      'date' : '2015-2019',
+      'promotor' : 'UFU - Universidade Federal de Uberlândia'},
+  ]
   teste = 'Gustavo'
   constructor() { }
 

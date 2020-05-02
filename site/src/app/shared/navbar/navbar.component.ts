@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
     private toggleButton: any;
     private sidebarVisible: boolean;
-    private country: String;
+    country: String;
     country_list =  [
         { 'language' : 'PT',
           'logo' : 'brasil.png'
