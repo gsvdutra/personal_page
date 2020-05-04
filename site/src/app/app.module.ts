@@ -16,6 +16,17 @@ import { MainModule } from './main/main.module';
 import { AcademicComponent } from './main/academic/academic.component';
 import { ProfissionalComponent } from './main/profissional/profissional.component';
 
+import { registerLocaleData } from '@angular/common'; 
+import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+
+
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(httpClient: HttpClient) {
+  return new TranslateHttpLoader(httpClient);
+}
 
 @NgModule({
   declarations: [
@@ -32,6 +43,17 @@ import { ProfissionalComponent } from './main/profissional/profissional.componen
     ComponentsModule,
     ExamplesModule,
     AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
+  ],
+  exports: [
+    TranslateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

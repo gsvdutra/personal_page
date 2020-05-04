@@ -10,19 +10,19 @@
                 </div>
                 <div class="name">
                     <h4 class="title">Gustavo DUTRA<br /></h4>
-                    <h6 class="description">Mechatronics Engineering Student</h6>
+                    <h6 class="description">{{translate.instant('PROFISIONAL.TITLE')}}</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 ml-auto mr-auto text-center">
-                    <p>{{intro}}</p>
+                    <p>{{translate.instant('PROFISIONAL.DESCRIPTION')}}</p>
                 </div>
             </div>
             <br/>
             <div class="nav-tabs-navigation">
                 <div class="nav-tabs-wrapper">
                     <ngb-tabset [justify]="'center'">
-                        <ngb-tab title="Work Experience">
+                        <ngb-tab title="{{translate.instant('PROFISIONAL.WORK')}}">
                             <ng-template ngbTabContent >
                                 <div class="row following" id="follows">
                                     <div class="col-md-6 ml-auto mr-auto">
@@ -34,8 +34,8 @@
                                                     </div>
                                                     <div class="col-md-10 col-sm-10 ml-auto">
                                                         <h6>Jan 2020 - Jul 2020: TECHLAM - HUTCHINSON<br/>
-                                                          <small>Automation of simulations of metal components using scripts along with ABAQUS software. Development and manipulation of 3D models and realization of metrological processes.</small>
-                                                          <br><small><b>Cenay - France</b></small></h6>
+                                                          <small>{{translate.instant('PROFISIONAL.HUT_DESC')}}</small>
+                                                          <br><small><b>{{translate.instant('PROFISIONAL.CERNAY')}}</b></small></h6>
                                                     </div>
                                                 </div>
                                             </li>
@@ -46,9 +46,9 @@
                                                         <img src="./assets/img/kyros_logo.jpeg" alt="Circle Image" class="img-circle img-no-padding img-responsive" style="padding-top: 10px">
                                                     </div>
                                                     <div class="col-md-10 col-sm-10 ml-auto">
-                                                        <h6>Dec 2018 - Aug 2019: Kyros technology<br />
-                                                          <small>Full Stack Developer focused on Web Development and Robotic Process Automation via machine learning and big data.</small>
-                                                          <br><small><b>Uberlândia - Brazil</b></small></h6>
+                                                        <h6>Dec 2018 - Aug 2019: {{translate.instant('PROFISIONAL.KYROS')}}<br />
+                                                          <small>{{translate.instant('PROFISIONAL.KYROS_DESC')}}</small>
+                                                          <br><small><b>{{translate.instant('PROFISIONAL.UBERLANDIA')}}</b></small></h6>
                                                     </div>
                                                 </div>
                                             </li>
@@ -59,11 +59,9 @@
                                                         <img src="./assets/img/nupe_logo.png" alt="Square Image" class="img-square img-no-padding img-responsive" style="padding-top: 10px;">
                                                     </div>
                                                     <div class="col-md-10 col-sm-10 ml-auto">
-                                                        <h6>Mar 2017 - Mar 2018: NuPE: Electroanalytical Research Center<br />
-                                                          <small>Development of a 3D-printed Portable Platform for Mechanized Handling
-                                                            and Injection of Microvolumes Coupled to Electrochemical
-                                                            Detection</small>
-                                                          <br><small><b>Uberlândia - Brazil</b></small></h6>
+                                                        <h6>Mar 2017 - Mar 2018: {{translate.instant('PROFISIONAL.NUPE')}}<br />
+                                                          <small>{{translate.instant('PROFISIONAL.NUPE_DESC')}}</small>
+                                                          <br><small><b>{{translate.instant('PROFISIONAL.UBERLANDIA')}}</b></small></h6>
                                                     </div>
                                                 </div>
                                             </li>
@@ -72,7 +70,7 @@
                                 </div>
                             </ng-template>
                         </ngb-tab>
-                        <ngb-tab title="Programming">
+                        <ngb-tab title="{{translate.instant('PROFISIONAL.PROGRAM')}}">
                             <ng-template ngbTabContent >
                                 <div class="row following" id="follows">                                  
                                     <div class="col-md-6 ml-auto mr-auto">
@@ -81,7 +79,7 @@
                                                 <div class="row">
                                                     <div class="col-md-2 col-sm-2 ml-auto mr-auto" 
                                                     rel="tooltip" title="{{item.language}}" data-placement="bottom" 
-                                                    placement="bottom" ngbPopover="{{item.description}}" popoverTitle="{{item.language}}"
+                                                    placement="bottom" ngbPopover="{{translate.instant(item.description)}}" popoverTitle="{{item.language}}"
                                                     *ngFor="let item of programming" style="cursor: pointer;">
                                                         <img src="./assets/img/programming/{{item.logo}}" alt="Circle Square" class="img-square img-no-padding img-responsive" style="padding-top: 10px; max-width: 80%">
                                                     </div>
@@ -127,7 +125,7 @@
                                 </div>
                             </ng-template>
                         </ngb-tab>
-                        <ngb-tab title="Automation">
+                        <ngb-tab title="{{translate.instant('PROFISIONAL.AUTOMATION')}}">
                             <ng-template ngbTabContent >
                                 <div class="section" id="carousel">
                                     <div class="container">
@@ -145,6 +143,28 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ngb-tab>
+                        <ngb-tab title="CV">
+                            <ng-template ngbTabContent >
+                                <div class="row following" id="follows">
+                                    <div class="col-md-6 ml-auto mr-auto">
+                                        <ul class="list-unstyled follows">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-md-2 col-sm-2 ml-auto mr-auto">
+                                                        <img src="./assets/img/cv.png" alt="Circle Image" class="img-square img-no-padding img-responsive" style="height:4.5rem; padding-top: 1rem;">
+                                                    </div>
+                                                    <div class="col-md-10 col-sm-10 ml-auto">
+                                                        <h6><a href="https://www.youtube.com/watch?v=UGuxNbx-W7I" style="color: #66615b; font-weight: bold"><i class="fa fa-link"></i>{{translate.instant('PROFISIONAL.CV_PT')}}</a><br/>
+                                                            <a href="https://www.youtube.com/watch?v=q6EoRBvdVPQ" style="color: #66615b; font-weight: bold"><i class="fa fa-link"></i>{{translate.instant('PROFISIONAL.CV_EN')}}</a><br/>
+                                                            <a href="https://www.youtube.com/watch?v=Byt2D_8acz0" style="color: #66615b; font-weight: bold"><i class="fa fa-link"></i>{{translate.instant('PROFISIONAL.CV_FR')}}</a><br/></h6>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </ng-template>

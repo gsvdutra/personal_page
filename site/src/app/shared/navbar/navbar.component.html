@@ -21,7 +21,7 @@
                     </a>
                 </li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="LinkedIn Profile" data-placement="bottom" href="https://www.linkedin.com/in/gustavo-dutra-a349bb18b/" target="_blank">
+                    <a class="nav-link" rel="tooltip" title="{{ 'NAVBAR.LINKEDIN' | translate }}" data-placement="bottom" href="https://www.linkedin.com/in/gustavo-dutra-a349bb18b/" target="_blank">
                         <i class="fa fa-linkedin"></i>
                         <p class="d-lg-none">LinkedIn</p>
                     </a>
@@ -33,22 +33,21 @@
                         </a>
                 </li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a (click)="route('academic')" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> Academic Life</a>
+                    <a (click)="route('academic')" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> {{ 'NAVBAR.ACADEMIC' | translate}}</a>
                 </li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a (click)="route('experience')" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> Work Experience</a>
+                    <a (click)="route('experience')" class="nav-link"><i class="nc-icon nc-book-bookmark"></i> {{ 'NAVBAR.WORK' | translate}}</a>
                 </li>
                 <li class="nav-item" *ngIf="isDocumentation()">
                     <a href="https://github.com/creativetimofficial/paper-kit-2-angular/issues?ref=pk2-free-local" target="_blank" class="nav-link">Have an issue</a>
                 </li>
                 <li class="nav-item">
                     <div ngbDropdown class="d-inline-block dropdown">
-                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle><img src="./assets/img/flags/{{country}}" style="height: 1.75rem; padding-top: -0.875rem"></a>
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle><img src="./assets/img/flags/{{country}}" style="height: 1.2rem; padding-top: -0.6rem"></a>
                         <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-primary">
                             <tr *ngFor="let item of country_list" >
-                                <a *ngIf="item.logo != country" class="dropdown-item">
-                                        <img src="./assets/img/flags/{{item.logo}}" style="height: 1.4rem; padding-top: -0.7rem" (click)="changeCountry(item.logo)">
-                                       
+                                <a *ngIf="item.logo != country" class="dropdown-item" (click)="changeCountry(item.logo)">
+                                        <img src="./assets/img/flags/{{item.logo}}" style="height: 1.1rem; padding-top: -0.55rem">
                                 </a>
                             </tr>
                         </div>

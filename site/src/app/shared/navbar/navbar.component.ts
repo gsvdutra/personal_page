@@ -1,6 +1,7 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { Router } from '@angular/router';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
     selector: 'app-navbar',
@@ -23,12 +24,12 @@ export class NavbarComponent implements OnInit {
         },
     ]
 
-    constructor(public location: Location, private element : ElementRef, private router: Router) {
+    constructor(public location: Location, private element : ElementRef, private router: Router, public translate: TranslateService) {
         this.sidebarVisible = false;
     }
 
     ngOnInit() {
-        this.country = 'brasil.png'
+        this.country = 'uk.png'
         const navbar: HTMLElement = this.element.nativeElement;
         this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
     }
@@ -62,11 +63,11 @@ export class NavbarComponent implements OnInit {
         }
     };
     isHome() {
-      var titlee = this.location.prepareExternalUrl(this.location.path());
-      if(titlee.charAt(0) === '#'){
-          titlee = titlee.slice( 1 );
+      var title = this.location.prepareExternalUrl(this.location.path());
+      if(title.charAt(0) === '#'){
+          title = title.slice( 1 );
       }
-        if( titlee === '/profile' ) {
+        if( title.includes('profile')) {
             return true;
         }
         else {
@@ -93,5 +94,14 @@ export class NavbarComponent implements OnInit {
 
     changeCountry(item) {
         this.country = item;
+        if (item === 'brasil.png') {
+            this.translate.use('pt');
+        }
+        if (item === 'uk.png') {
+            this.translate.use('en');
+        }
+        if (item === 'franca.png') {
+            this.translate.use('fr');
+        }
     }
 }

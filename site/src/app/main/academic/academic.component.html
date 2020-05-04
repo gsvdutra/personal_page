@@ -10,19 +10,19 @@
                 </div>
                 <div class="name">
                     <h4 class="title">Gustavo DUTRA<br /></h4>
-                    <h6 class="description">Mechatronics Engineering Student</h6>
+                    <h6 class="description">{{translate.instant('ACADEMIC.DESCRIPTION')}}</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 ml-auto mr-auto text-center">
-                    <p>Projects developed in the field of mechatronic engineering, mathematics, teaching assistant and psychological support for students.</p>
+                    <p>{{translate.instant('ACADEMIC.INTRO')}}</p>
                 </div>
             </div>
             <br/>
             <div class="nav-tabs-navigation">
                 <div class="nav-tabs-wrapper">
                     <ngb-tabset [justify]="'center'">
-                        <ngb-tab title="Formation">
+                        <ngb-tab title="{{translate.instant('ACADEMIC.FORMATION')}}">
                             <ng-template ngbTabContent >
                                 <div class="row following" id="follows">
                                     <div class="col-md-6 ml-auto mr-auto">
@@ -57,7 +57,7 @@
                                 </div>
                             </ng-template>
                         </ngb-tab>
-                        <ngb-tab title="Papers and works">
+                        <ngb-tab title="{{translate.instant('ACADEMIC.PAPERS')}}">
                             <ng-template ngbTabContent >
                                 <div class="row following" id="follows">
                                     <div class="col-md-6 ml-auto mr-auto">
@@ -66,8 +66,8 @@
                                             <li>
                                                 <div class="row">
                                                     <div class="col-md-12 col-sm-12 ml-auto">
-                                                        <h6>{{item.title}}<br/><small>{{item.authors}}</small>
-                                                        <br><small><b>{{item.place}} - {{item.year}}</b></small></h6>
+                                                        <h6><a href="{{item.url}}" style="color: #66615b; font-weight: bold"><i *ngIf="item.url != ''" class="fa fa-link"></i>{{translate.instant(item.title)}}</a><br/><small>{{item.authors}}</small>
+                                                        <br><small><b>{{translate.instant(item.place)}} - {{item.year}}</b></small></h6>
                                                     </div>
                                                 </div>
                                             </li>
@@ -78,7 +78,7 @@
                                 </div>
                             </ng-template>
                         </ngb-tab>
-                        <ngb-tab title="Competitions and Awards">
+                        <ngb-tab title="{{translate.instant('ACADEMIC.COMPETITIONS')}}">
                             <ng-template ngbTabContent >
                                 <div class="row following" id="follows">
                                     <div class="col-md-6 ml-auto mr-auto">
@@ -87,8 +87,8 @@
                                             <li>
                                                 <div class="row">
                                                     <div class="col-md-12 col-sm-12 ml-auto">
-                                                        <h6>{{item.title}}<br/><small>{{item.date}}
-                                                        <br><b>{{item.promotor}}</b></small></h6>
+                                                        <h6>{{translate.instant(item.title)}}<br/><small>{{item.date}}
+                                                        <br><b>{{translate.instant(item.promotor)}}</b></small></h6>
                                                     </div>
                                                 </div>
                                             </li>
@@ -99,7 +99,7 @@
                                 </div>
                             </ng-template>
                         </ngb-tab>
-                        <ngb-tab title="Support activities">
+                        <ngb-tab title="{{translate.instant('ACADEMIC.SUPPORT')}}">
                             <ng-template ngbTabContent >
                                 <div class="row following" id="follows">
                                     <div class="col-md-6 ml-auto mr-auto">
@@ -108,10 +108,10 @@
                                             <li>
                                                 <div class="row">
                                                     <div class="col-md-12 col-sm-12 ml-auto">
-                                                        <h6>{{item.title}}<br/>
-                                                            <small>{{item.description}}<br/>
+                                                        <h6>{{translate.instant(item.title)}}<br/>
+                                                            <small>{{translate.instant(item.description)}}<br/>
                                                                 {{item.date}}
-                                                        <br><b>{{item.promotor}}</b></small></h6>
+                                                        <br><b>{{translate.instant(item.promotor)}}</b></small></h6>
                                                     </div>
                                                 </div>
                                             </li>
