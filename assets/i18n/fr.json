@@ -1,0 +1,25 @@
+{
+    "NAVBAR": {
+        "LINKEDIN": "Profil LinkedIn",
+        "ACADEMIC": "Information Académique",
+        "WORK": "Expérience Professionnelle"
+    },
+    "HOME": {
+      "TITLE": "Étudiant en génie mécatronique",
+      "SUBTITLE": "Etudiant brésilien en échange en France",
+      "DESCRIPTION": "Actuellement en BAC +5 dans l'École Nationale Supérieure de Mécanique et des Microtechniques",
+      "STUDY": "Etudes",
+      "STUDY_DESC": "Diplôme en sandwich en génie mécatronique avec UFU (Brésil) et ENSMM (France) avec une spécialisation en robotique",
+      "PROGRAM": "Programmation",
+      "PROGRAM_DESC": "Développeur ayant de l'expérience dans plusieurs domaines de la programmation, y compris le Web, l'analyse de données, la base de données et les microcontrôleurs",
+      "LANGUAGE": "Compétences linguistiques",
+      "LANGUAGE_DESC": "Langue maternelle portugaise. Bonne maîtrise de l'anglais et du français. Apprenez l'espagnol. En cours d'apprentissage d'Espagnol.",
+      "EXP": "Expériences",
+      "EXP_DESC": "Ensemble d'expériences en ingénierie, informatique, simulation et sciences humaines",
+      "TITLE_MESSAGE": "Souhaitez vous me contacter?",
+      "NAME": "Nom",
+      "EMAIL": "E-mail",
+      "MESSAGE": "Message"
+    }
+  }
+  
