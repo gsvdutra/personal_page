@@ -88,8 +88,10 @@
     "ANGULAR" : "Experiência generalista com desenvolvimento Web.",
     "MATLAB" : "Habituado com processamento e análise de dados e com o uso de GUIDE e SIMULINK.",
     "SQL" : "Experriência com integração de bancos de dados com aplicações e optimização de sistemas de filtragem de dados",
-    "ASM" : "Experiência com sistemas embarcados e desafios lógicos utilizando da linguagem."
- 
+    "ASM" : "Experiência com sistemas embarcados e desafios lógicos utilizando da linguagem.",
+    "ROBOT_ARM" : "Braço robótico controlado por movimentos corporais",
+    "SUMO" : "Robô desenvolvidos para competições Sumobot",
+    "PLAT_ELEC" : "Plataforma portável para detecção eletroquímica"
   }
   }
   
