@@ -68,7 +68,7 @@ export class AcademicComponent implements OnInit {
       'promotor' : 'ACADEMIC.COBENGE_PLACE'},
     { 'title' : 'ACADEMIC.WIN_PETMEC',
       'date' : '2018',
-      'promotor' : 'PETMEC_PLACE'},
+      'promotor' : 'ACADEMIC.PETMEC_PLACE'},
     { 'title' : 'ACADEMIC.FIRST_SUMOCUP',
       'date' : '2018',
       'promotor' : 'ACADEMIC.SUMOCUP_PLACE'},

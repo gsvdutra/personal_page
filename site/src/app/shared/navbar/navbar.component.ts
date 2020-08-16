@@ -25,11 +25,24 @@ export class NavbarComponent implements OnInit {
     ]
 
     constructor(public location: Location, private element : ElementRef, private router: Router, public translate: TranslateService) {
+        this.setContry()
         this.sidebarVisible = false;
     }
 
+    private setContry() {
+        console.log(this.translate.currentLang)
+        if (this.translate.currentLang === 'fr') {
+            this.country = 'franca.png';
+        } 
+        if (this.translate.currentLang === 'pt') {
+            this.country = 'brazil.png';
+        } 
+        if (this.translate.currentLang === 'en') {
+            this.country = 'uk.png';
+        }
+    }
+
     ngOnInit() {
-        this.country = 'uk.png'
         const navbar: HTMLElement = this.element.nativeElement;
         this.toggleButton = navbar.getElementsByClassName('navbar-toggler')[0];
     }
@@ -104,4 +117,5 @@ export class NavbarComponent implements OnInit {
             this.translate.use('fr');
         }
     }
+
 }

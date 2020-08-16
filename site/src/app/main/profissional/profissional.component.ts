@@ -57,13 +57,13 @@ export class ProfissionalComponent implements OnInit {
   ]
 
   automation = [
-    { 'title' : 'Robotic arm controled by body mouvements',
+    { 'title' : 'PROFISIONAL.ROBOT_ARM',
       'image' : 'hook_4.png'
     },
-    { 'title' : 'Robotic arm controled by body mouvements',
+    { 'title' : 'PROFISIONAL.SUMO',
       'image' : 'sumocup_1.png'
     },
-    { 'title' : 'Portable platform for electrochemical detection',
+    { 'title' : 'PROFISIONAL.PLAT_ELEC',
       'image' : 'autosampler.png'
     },
   ] 

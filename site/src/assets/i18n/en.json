@@ -11,7 +11,7 @@
       "STUDY": "Studies",
       "STUDY_DESC": "Joint formation in mechatronic engineering with UFU (Brazil) and ENSMM (France) with an emphasis on robotics",
       "PROGRAM": "Programming",
-      "PROGRAM_DESC": "Developer with experience in several programming areas including web, data analysis, database and microcontrollers",
+      "PROGRAM_DESC": "Developer with experience in several programming areas including web, data analysis, databases and microcontrollers",
       "LANGUAGE": "Language proficiencies",
       "LANGUAGE_DESC": "Portuguese mother tongue. Good skills in English and French. Learning Spanish.",
       "EXP": "Experiences",
@@ -34,7 +34,7 @@
         "CNMAC": "Lagrangian formulation applied in a non-linear variant of the Atwood Machine",
         "CNMAC_PLACE": "Brazilian Society of Computational and Applied Mathematics",
         "COBENGE": "Tutoria e apoio psico-pedagógico para transformar as dificuldades em oportunidades nos cursos de engenharia",
-        "COBENGE_PLACE": "Congresso Brasileiro de Educação em Engenharia (COBENGE)",
+        "COBENGE_PLACE": "Brazilian Congress of Engineering Education (COBENGE)",
         "COBEM_PRO": "IMPACTS OF THE PROJECT \"PRÓ-EXCELÊNCIA\" ON THEENGINEERING STUDENTS PERFORMANCES",
         "COBEM_PRO_PLACE": "25th International Congress of Mechanical Engineering",
         "COBEM_MOT": "THE CONSEQUENCES OF TUTORING AND PSYCHO-PEDAGOGICAL SUPPORT IN THE ENGINEERING EDUCATION",
@@ -46,9 +46,9 @@
         "CEEL" : "PROPOSTA DE SISTEMA COMPUTACIONAL PARA O DIMENSIONAMENTO DE CAMES SEGUINDO A ABORDAGEM DE KLOOMOK E R. V. MUFFLEY",
         "CEEL_PLACE" : "XVI Conferência de Estudos em Engenharia Elétrica",
         "PETMEC" : "Desenvolvimento de um Injetor Mecanizado para Sistemas Eletroanalíticos",
-        "PETMEC_PLACE" : "First Scientific Initiative Showcase - PETMEC",
+        "PETMEC_PLACE" : "First Scientific Showcase - PETMEC",
         "BEST" : "Into the 10% best Students on the Mechatronics Course",
-        "BEST_PLACE" : "UFU - Universidade Federal de Uberlândia",
+        "BEST_PLACE" : "UFU - Federal University of Uberlândia",
         "ENSMM" : "11th position out of 97 students",
         "ENSMM_PLACE" : "ENSMM - École Nationale Supérieure de Mécanique et des Microtechniques de Besançon",
         "WIN_COBEN" : "One of the ten best articles published",
@@ -65,6 +65,8 @@
         "MONITORIA_DESC" : "Teacher for six months in each of the following subjects: Transfer of heat, Dynamics, Calculus I, Digital system control"
     },
     "PROFISIONAL" : {
+        "UBERLANDIA" : "Uberlândia - Brazil",
+        "CERNAY" : "Cernay - France",
         "CV_PT": "Curriculum - Portuguese Version",
         "CV_EN" : "Curriculum - English Version",
         "CV_FR" : "Curriculum - French Version",
@@ -88,7 +90,11 @@
         "ANGULAR" : "Asynchronous web application development",
         "MATLAB" : "Data processing, simulations and creation of interfaces",
         "SQL" : "Database for application development and optimisation of data filtering to the server",
-        "ASM" : "Experience with projects in embedded systems and logical challenges using the language"
-      }
+        "ASM" : "Experience with projects in embedded systems and logical challenges using the language",
+        "ROBOT_ARM" : "Robotic arm controled by body mouvements",
+        "SUMO" : "Robot developed for Sumobot competitions",
+        "PLAT_ELEC" : "Portable platform for electrochemical detection"
+      
+    }
   }
   

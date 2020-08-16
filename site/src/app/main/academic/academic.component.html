@@ -29,25 +29,26 @@
                                         <ul class="list-unstyled follows">
                                             <li>
                                                 <div class="row">
+                                                    <div class="col-md-3 col-sm-3 ml-auto mr-auto">
+                                                        <img src="./assets/img/ENSMM_logo.png" alt="Circle Image" style="height: 55px; width: 80px; margin-top: 20px" >
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-5 ml-auto">
+                                                        <h6>2019 - 2021: Systèmes mécatroniques et robotiques<br />
+                                                          <small>ENSMM - École Nationale Supérieure de Mécanique et des Microtechniques de Besançon</small>
+                                                          <br><small><b>BAC +5</b></small></h6>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <hr />
+                                            
+                                            <li>
+                                                <div class="row">
                                                     <div class="col-md-2 col-sm-2 ml-auto mr-auto">
                                                         <img src="./assets/img/UFU_logo.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive" style="padding-top: 10px">
                                                     </div>
                                                     <div class="col-md-7 col-sm-5 ml-auto">
                                                         <h6>2015 - 2021: Mechatronics Engineering<br/>
                                                           <small>UFU - Universidade Federal de Uberlândia</small>
-                                                          <br><small><b>BAC +5</b></small></h6>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <hr />
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-md-3 col-sm-3 ml-auto mr-auto">
-                                                        <img src="./assets/img/ENSMM_logo.png" alt="Circle Image" style="height: 55px; width: 80px; padding-top: 10px" >
-                                                    </div>
-                                                    <div class="col-md-7 col-sm-5 ml-auto">
-                                                        <h6>2019 - 2021: Systèmes mécatroniques et robotiques<br />
-                                                          <small>ENSMM - École Nationale Supérieure de Mécanique et des Microtechniques de Besançon</small>
                                                           <br><small><b>BAC +5</b></small></h6>
                                                     </div>
                                                 </div>
@@ -66,7 +67,7 @@
                                             <li>
                                                 <div class="row">
                                                     <div class="col-md-12 col-sm-12 ml-auto">
-                                                        <h6><a href="{{item.url}}" style="color: #66615b; font-weight: bold"><i *ngIf="item.url != ''" class="fa fa-link"></i>{{translate.instant(item.title)}}</a><br/><small>{{item.authors}}</small>
+                                                        <h6><a href="{{item.url}}" target="_blank" style="color: #66615b; font-weight: bold"><i *ngIf="item.url != ''" class="fa fa-link"></i>{{translate.instant(item.title)}}</a><br/><small>{{item.authors}}</small>
                                                         <br><small><b>{{translate.instant(item.place)}} - {{item.year}}</b></small></h6>
                                                     </div>
                                                 </div>
