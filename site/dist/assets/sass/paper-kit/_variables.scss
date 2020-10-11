@@ -11,7 +11,7 @@ $white-bg:                   #FFFFFF !default;
 $white-states-color:         rgba($white-color, 0.8);
 
 $smoke-bg:                   #F5F5F5 !default;
-$pale-bg:                    #FFFCF5 !default;
+$pale-bg:                    #FFFFFF !default;
 $medium-pale-bg:             #F1EAE0 !default;
 
 $table-line-color:           #ccc !default;
@@ -28,7 +28,7 @@ $dark-gray:                  #9A9A9A !default;
 
 $placeholder-gray:           rgba(210, 210, 210, 1)  !default;
 
-$gray-input-bg:              #fffcf5 !default;
+$gray-input-bg:              #FFFFFF !default;
 $danger-input-bg:            #FFC0A4 !default;
 $success-input-bg:           #ABF3CB !default;
 $other-medium-gray:          #A49E93 !default;
@@ -223,7 +223,7 @@ $green-navbar:              rgba(#4CD964, .98);
 $orange-navbar:             rgba(#FF9500, .98);
 $red-navbar:                rgba(#FF4C40, .98);
 
-$bg-nude:               #FFFCF5 !default;
+$bg-nude:               #FFFFFF !default;
 $bg-primary:            lighten($primary-color, 7%) !default;
 $bg-info:               lighten($info-color, 7%) !default;
 $bg-success:            lighten($success-color, 7%) !default;
