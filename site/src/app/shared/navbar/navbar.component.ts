@@ -35,7 +35,7 @@ export class NavbarComponent implements OnInit {
             this.country = 'franca.png';
         } 
         if (this.translate.currentLang === 'pt') {
-            this.country = 'brazil.png';
+            this.country = 'brasil.png';
         } 
         if (this.translate.currentLang === 'en') {
             this.country = 'uk.png';

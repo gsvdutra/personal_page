@@ -9,6 +9,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProfissionalComponent implements OnInit {
   intro = 'Development of activities related to mechatronic engineering, programming and automation.'
+  cv_fr = 'https://1drv.ms/b/s!Ahj3j7DN95SlhcVFRxLvPHX5Ug3zjQ?e=AbpEgl';
+  cv_pt = 'https://1drv.ms/b/s!Ahj3j7DN95SlhcVGAbeZ5UXa4SWkbQ?e=KH6hiI';
+  cv_en = 'https://1drv.ms/b/s!Ahj3j7DN95SlhcVElF0UtKIdlFwOyA?e=8kUIZk';
   programming = [
     { 'language' : 'Windows',
       'description' : 'PROFISIONAL.WINDOWS',
