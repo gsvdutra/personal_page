@@ -5,9 +5,9 @@
       "WORK": "Experiência Profissional"
     },
     "HOME": {
-      "TITLE": "Estudante de Engenharia Mecatrônica",
-      "SUBTITLE": "Estudante brasileiro em intercâbio na França",
-      "DESCRIPTION": "Atualmente no BAC +5 na École Nationale Supérieure de Mécanique et des Microtechniques",
+      "TITLE": "Engenheiro mecatrônico",
+      "SUBTITLE": "Mestre em engenharia mecatrônica",
+      "DESCRIPTION": "BAC +5 na École Nationale Supérieure de Mécanique et des Microtechniques",
       "STUDY": "Estudos",
       "STUDY_DESC": "Graduação sanduíche em Engenharia Mecatrônica com a UFU (Brasil) e a ENSMM (França) com ênfase em robótica",
       "PROGRAM": "Programação",
@@ -22,7 +22,7 @@
       "MESSAGE": "Mensagem"
     },
     "ACADEMIC": {
-      "DESCRIPTION" : "Estudante de engenharia mecatrônica",
+      "DESCRIPTION" : "Engenheiro mecatrônico",
       "INTRO": "Projetos realizados no campo de engenharia mecatrônica, matemáticas, ensino e apoio psicológico à estudantes",
       "FORMATION" : "Formação",
       "PAPERS" : "Artigos e publicações",
@@ -71,7 +71,7 @@
     "AUTOMATION" : "Automação",
     "PROGRAM" : "Programação",
     "WORK" : "Experiência de trabalho",
-    "TITLE" : "Estudante de Engenharia Mecatrônica",
+    "TITLE" : "Engenheiro mecatrônico",
     "DESCRIPTION" : "Desenvolvimento de atividades relacionadas a engenharia mecatrônica, programação e automação",
     "HUT_DESC" : "Automação de simulações de componentes metálicos utilizando scripts aplicados ao software ABAQUS. Desenvolvimento e manipulção de modelos 3D e de processos metrológicos",
     "KYROS" : "Kyros Tecnologia",
@@ -91,7 +91,12 @@
     "ASM" : "Experiência com sistemas embarcados e desafios lógicos utilizando da linguagem.",
     "ROBOT_ARM" : "Braço robótico controlado por movimentos corporais",
     "SUMO" : "Robô desenvolvidos para competições Sumobot",
-    "PLAT_ELEC" : "Plataforma portável para detecção eletroquímica"
+    "PLAT_ELEC" : "Plataforma portável para detecção eletroquímica",
+    "NOW" : "Hoje",
+    "ADAPT_DESC" : "Concepção de um andador inteligente open source e desenvolvimento de uma aplicação móvel de parametragem",
+    "RENNES" : "Rennes - France",
+    "PICPAY_DESC" : "Desenvolvedor backend na área de Open Banking",
+    "SAO_PAULO" : "São Paulo - Brasil"
   }
   }
   

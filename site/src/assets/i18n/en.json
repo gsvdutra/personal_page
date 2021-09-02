@@ -5,7 +5,7 @@
         "WORK": "WORK EXPERIENCE"
     },
     "HOME": {
-      "TITLE": "Mechatronics Engineering Student",
+      "TITLE": "Mechatronics Engineer",
       "SUBTITLE": "Brazilian exchange student in France",
       "DESCRIPTION": "Currently on BAC +5 in the École Nationale Supérieure de Mécanique et des Microtechniques",
       "STUDY": "Studies",
@@ -24,7 +24,7 @@
     "ACADEMIC": {
         "UBERLANDIA" : "Uberlândia - Brazil",
         "CERNAY" : "Cernay - France",
-        "DESCRIPTION" : "Mechatronics Engineering Student",
+        "DESCRIPTION" : "Mechatronics Engineer",
         "INTRO": "Projects developed in the field of mechatronic engineering, mathematics, teaching and psychological support for students.",
         "FORMATION" : "Formation",
         "PAPERS" : "Papers and works",
@@ -73,7 +73,7 @@
         "AUTOMATION" : "Automation",
         "PROGRAM" : "Programming",
         "WORK" : "Work Experience",
-        "TITLE" : "Student of Mechatronics Engineering",
+        "TITLE" : "Mechatronics Engineer",
         "DESCRIPTION" : "Development of activities related to mechatronic engineering, programming and automation",
         "HUT_DESC" : "Automation of metal components simulations utilizing Python scripts along the ABAQUS software, development and manipulation of 3D models and realization of metrological processes",
         "KYROS" : "Kyros Technology",
@@ -93,8 +93,12 @@
         "ASM" : "Experience with projects in embedded systems and logical challenges using the language",
         "ROBOT_ARM" : "Robotic arm controled by body mouvements",
         "SUMO" : "Robot developed for Sumobot competitions",
-        "PLAT_ELEC" : "Portable platform for electrochemical detection"
-      
+        "PLAT_ELEC" : "Portable platform for electrochemical detection",
+        "NOW" : "Now",
+        "ADAPT_DESC" : "Development, modeling, programming and evaluation of an open source smart walker system",
+        "RENNES" : "Rennes - France",
+        "PICPAY_DESC" : "Backend developer in the Open Banking domain",
+        "SAO_PAULO" : "São Paulo - Brazil"
     }
   }
   
