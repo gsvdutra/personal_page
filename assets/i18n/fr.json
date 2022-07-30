@@ -5,8 +5,8 @@
         "WORK": "Expérience Professionnelle"
     },
     "HOME": {
-      "TITLE": "Étudiant en génie mécatronique",
-      "SUBTITLE": "Étudiant brésilien en échange en France",
+      "TITLE": "Ingénieur mécatronique",
+      "SUBTITLE": "Master en Mécatronique et Ingénierie Robotique",
       "DESCRIPTION": "Actuellement en BAC +5 dans l'École Nationale Supérieure de Mécanique et des Microtechniques",
       "STUDY": "Études",
       "STUDY_DESC": "Diplôme en sandwich en génie mécatronique. UFU (Brésil) et ENSMM (France) avec une spécialisation en robotique",
@@ -24,7 +24,7 @@
     "ACADEMIC": {
       "UBERLANDIA" : "Uberlândia - Brésil",
       "CERNAY" : "Cernay - France",
-      "DESCRIPTION" : "Étudiant en génie mécatronique",
+      "DESCRIPTION" : "Master en Mécatronique et Ingénierie Robotique",
       "INTRO": "Projects developed in the field of mechatronic engineering, mathematics, teaching and psychological support for students.",
       "FORMATION" : "Formation",
       "PAPERS" : "Articles et publications",
@@ -62,7 +62,8 @@
       "PROSS_DESC" : "Projets visant à réduire le taux de rétention à l'université en utilisant des techniques pédagogiques et psychologiques.",
       "PROCOR_DESC" : "Orientation des groupes d'étude et le développement d'une bibliothèque virtuelle et d'un guide appliqué sur le sujet du calcul I",
       "MONITORIA" : "Assistant pédagogique en plusieurs sujets",
-      "MONITORIA_DESC" : "Assistant pédagogique en plusieurs sujets: Transfert de chaleur, Dynamique, Calcul I, Contrôle de systèmes numérique"
+      "MONITORIA_DESC" : "Assistant pédagogique en plusieurs sujets: Transfert de chaleur, Dynamique, Calcul I, Contrôle de systèmes numérique",
+      "IEEE_ROBOTICS" : "Trajectory Generation Module Design for Robot Manipulators"
   },
   "PROFISIONAL" : {
       "UBERLANDIA" : "Uberlândia - Brésil",
@@ -73,7 +74,7 @@
       "AUTOMATION" : "Automatisation",
       "PROGRAM" : "Programmation",
       "WORK" : "Expérience Professionnelle",
-      "TITLE" : "Étudiant en génie mécatronique",
+      "TITLE" : "Ingénieur mécatronique",
       "DESCRIPTION" : "Développement des activités liées à l'ingénierie mécatronique, à la programmation et à l'automatisation",
       "HUT_DESC" : "Automatisation de simulations de composants métalliques à l'aide de scripts Python avec le logiciel ABAQUS, développement et manipulation de modèles 3D et réalisation de processus métrologiques",
       "KYROS" : "Kyros Technologie",
@@ -93,7 +94,12 @@
       "ASM" : "Experience with projects in embedded systems and logical challenges using the language",
       "ROBOT_ARM" : "Bras robotisé contrôlé par les mouvements corporels",
       "SUMO" : "Robot développé pour les compétitions Sumobot",
-      "PLAT_ELEC" : "Plateforme portable pour  la détection électrochimique" 
+      "PLAT_ELEC" : "Plateforme portable pour  la détection électrochimique" ,
+      "NOW" : "Aujourd'hui",
+      "ADAPT_DESC" : "Finalisation de la conception d’un déambulateur adapté etdéveloppement d’une application de paramétrage en vued’essais cliniques",
+      "RENNES" : "Rennes - France",
+      "PICPAY_DESC" : "Dévelopeur backend dans le domaine de l'Open Banking",
+      "SAO_PAULO" : "São Paulo - Brésil"
   }
   }
   
