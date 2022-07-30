@@ -62,7 +62,8 @@
       "PROSS_DESC" : "Projets visant à réduire le taux de rétention à l'université en utilisant des techniques pédagogiques et psychologiques.",
       "PROCOR_DESC" : "Orientation des groupes d'étude et le développement d'une bibliothèque virtuelle et d'un guide appliqué sur le sujet du calcul I",
       "MONITORIA" : "Assistant pédagogique en plusieurs sujets",
-      "MONITORIA_DESC" : "Assistant pédagogique en plusieurs sujets: Transfert de chaleur, Dynamique, Calcul I, Contrôle de systèmes numérique"
+      "MONITORIA_DESC" : "Assistant pédagogique en plusieurs sujets: Transfert de chaleur, Dynamique, Calcul I, Contrôle de systèmes numérique",
+      "IEEE_ROBOTICS" : "Trajectory Generation Module Design for Robot Manipulators"
   },
   "PROFISIONAL" : {
       "UBERLANDIA" : "Uberlândia - Brésil",

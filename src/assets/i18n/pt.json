@@ -60,7 +60,8 @@
       "PROSS_DESC" : "Projetos com o enfoque de diminuir as taxas de retenção na faculdade utilizando de técnicas psicológicas e educacionais",
       "PROCOR_DESC" : "Orientação de grupos de estudos juntamente ao desenvolvimento de uma biblioteca virutal e de um guia voltados para Cálculo I",
       "MONITORIA" : "Assistente de ensino em diversas matérias",
-      "MONITORIA_DESC" : "Professor durante seis meses nas seguintes matérias: Transferência de Calor, Dinâmica, Cálculo I e Controle Digital de Sistemas"
+      "MONITORIA_DESC" : "Professor durante seis meses nas seguintes matérias: Transferência de Calor, Dinâmica, Cálculo I e Controle Digital de Sistemas",
+      "IEEE_ROBOTICS" : "Trajectory Generation Module Design for Robot Manipulators"
   },
   "PROFISIONAL" : {
     "UBERLANDIA" : "Uberlândia - Brasil",

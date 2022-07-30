@@ -10,6 +10,11 @@ import { HttpClient } from '@angular/common/http';
 export class AcademicComponent implements OnInit {
 
   artigos = [
+    {'title' : 'ACADEMIC.IEEE_ROBOTICS', 
+      'authors' : 'SOUZA, G. A. ; DUTRA, GUSTAVO S. V. ; DE SOUZA TAVARES, JOSE J. P. Z.',
+      'place' : 'IEEE',
+      'year' : '2020',
+      'url' : "https://ieeexplore.ieee.org/document/9307058"},
     {'title' : 'ACADEMIC.NUPE', 
       'authors' : 'MENDONÇA, DIANDERSON M. H. ; ROCHA, DIEGO P. ; DUTRA, GUSTAVO S. V. ; CARDOSO, RAFAEL M. ; BATISTA, ALEX D. ; RICHTER, EDUARDO M. ; MUNOZ, RODRIGO A. A. ',
       'place' : 'ELECTROANALYSIS',

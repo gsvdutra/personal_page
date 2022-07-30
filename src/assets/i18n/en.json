@@ -62,7 +62,8 @@
         "PROSS_DESC" : "Projects carried out aiming the reduction of the retention rate in the faculty utilizing educational and psychological techniques.",
         "PROCOR_DESC" : "Orientation of study groups and both development of a virtual library and an applied guide on the subject of Calculus I",
         "MONITORIA" : "Teaching assistant of several subjects",
-        "MONITORIA_DESC" : "Teacher for six months in each of the following subjects: Transfer of heat, Dynamics, Calculus I, Digital system control"
+        "MONITORIA_DESC" : "Teacher for six months in each of the following subjects: Transfer of heat, Dynamics, Calculus I, Digital system control",
+        "IEEE_ROBOTICS" : "Trajectory Generation Module Design for Robot Manipulators"
     },
     "PROFISIONAL" : {
         "UBERLANDIA" : "Uberlândia - Brazil",
