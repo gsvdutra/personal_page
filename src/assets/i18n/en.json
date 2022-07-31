@@ -5,11 +5,13 @@
         "WORK": "WORK EXPERIENCE"
     },
     "HOME": {
-      "TITLE": "Mechatronics Engineer",
-      "SUBTITLE": "Brazilian exchange student in France",
+      "TITLE_OLD": "Mechatronics Engineer",
+      "TITLE" : "Back-end and MLOps Developer",
+      "SUBTITLE_OLD": "Brazilian exchange student in France",
+      "SUBTITLE": "Developer with backend and machine learning experience and a master's degree in robotic systems ",
       "DESCRIPTION": "Currently on BAC +5 in the École Nationale Supérieure de Mécanique et des Microtechniques",
       "STUDY": "Studies",
-      "STUDY_DESC": "Joint formation in mechatronic engineering with UFU (Brazil) and ENSMM (France) with an emphasis on robotics",
+      "STUDY_DESC": "Master's degree in Mechatronics Engineering with a specialization in robotics - UFU (Brazil) and ENSMM (France)",
       "PROGRAM": "Programming",
       "PROGRAM_DESC": "Developer with experience in several programming areas including web, data analysis, databases and microcontrollers",
       "LANGUAGE": "Language proficiencies",
